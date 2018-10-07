@@ -1,18 +1,19 @@
-package com.example.qwert.floatingbutton;
+package com.example.qwert;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.PopupWindow;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements FolatingButtonActivity.LoginTypeListener {
+import com.example.qwert.floatingbutton.FolatingButtonView;
+import com.example.qwert.floatingbutton.R;
 
-    private FolatingButtonActivity mPopupWindow;
+public class MainActivity extends Activity implements FolatingButtonView.LoginTypeListener {
+
+    private FolatingButtonView mPopupWindow;
     private Button buttonPanel;
 
 
@@ -25,7 +26,7 @@ public class MainActivity extends Activity implements FolatingButtonActivity.Log
 
     public void onClick(View view) {
         if (mPopupWindow == null) {
-            mPopupWindow = new FolatingButtonActivity(this);
+            mPopupWindow = new FolatingButtonView(this);
             mPopupWindow.setLoginTypeListener(this);
         }
         mPopupWindow.showAtLocation(buttonPanel, Gravity.CENTER, 0, 0);

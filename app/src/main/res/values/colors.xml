@@ -48,22 +48,69 @@
     <color name="read_theme_gray">#AAAAAA</color>
     <color name="read_theme_night">#000000</color>
 
-    <!--章节标题夜间颜色-->
-    <color name="chapter_title_night">#292929</color>
-    <!--章节内容夜间颜色-->
-    <color name="chapter_content_night">#444444</color>
-    <!--章节标题日间颜色-->
-    <color name="chapter_title_day">#837B63</color>
-    <!--章节内容夜间颜色-->
-    <color name="chapter_content_day">#3B3220</color>
-    <!--阅读页顶部字体颜色-->
-    <color name="book_read_top_text">#D1D1D1</color>
-    <!--阅读页底部字体颜色-->
-    <color name="book_read_bottom_text">#e6e6e6</color>
 
-    <!--性别选择颜色值-->
-    <color name="gender_select_male_normal">#B0E2FF</color>
-    <color name="gender_select_male_pressed">#B2DFEE</color>
-    <color name="gender_select_female_normal">#EEA9B8</color>
-    <color name="gender_select_female_pressed">#EEA2AD</color>
+        <color name="abc_theme_black_7f">#7f000000</color>
+
+        <color name="color_light_blue">#00DDB6</color>
+        <color name="txt_color">#48495F</color>
+        <color name="item_bg">#FFFFFF</color>
+        <color name="bg">#F0F0F0</color>
+        <color name="spinner_bg">#333244</color>
+        <color name="new_text_color">#555771</color>
+        <color name="white_text_color">#F0F0F0</color>
+        <color name="gray_color">#4b4b58</color>
+        <color name="hard_color">#48495f</color>
+        <color name="clickspan_color">#00ddb6</color>
+        <color name="dull_blue">#3B4BBF</color>
+        <color name="while_most_color">#e4e4e4</color>
+        <color name="alpha_10_black">#1A000000</color>
+        <color name="lightgray">#11000000</color>
+        <color name="select_color_tab">#ff4081</color>
+
+        <color name="md_grey_600">#757575</color>
+        <color name="md_grey_800">#424242</color>
+
+        <!--正文文字颜色-->
+        <color name="colorContent">#ff333333</color>
+
+        <!--tab标签栏文字的颜色-->
+        <color name="colorTabText">#585858</color>
+
+        <!-- 背景色 -->
+        <color name="bg_gray">#f1f1f1</color>
+
+        <!-- grey -->
+        <color name="md_grey_500">#9e9e9e</color>
+
+
+        <!--选择分类按下颜色-->
+        <color name="colorChoosePress">#DDD</color>
+
+        <color name="colorTitle">#666</color>
+        <!--首页item文字颜色-->
+        <color name="colorSubtitle">#999</color>
+
+        <!--页面背景的颜色-->
+        <color name="colorPageBg">#f2f4f5</color>
+
+
+        <color name="colorWhite">#ffffffff</color>
+
+        <!--分割线-->
+        <color name="colorLine">#EBEBEB</color>
+
+
+        <color name="accuracyCircleFillColor">#AAFFFF88</color>
+        <color name="accuracyCircleStrokeColor">#AA00FF00</color>
+        <color name="alpha_pink">#66fce4ec</color>
+
+        <color name="srl_pink">#ff4081</color>
+        <color name="srl_pink2">#c51162</color>
+        <color name="srl_pink3">#f06292</color>
+        <color name="srl_pink4">#ec407a</color>
+        <color name="srl_pink5">#00e676</color>
+
+
+        <color name="text_color">#19443D</color>
+
 </resources>

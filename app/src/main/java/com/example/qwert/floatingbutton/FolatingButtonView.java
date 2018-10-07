@@ -13,7 +13,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
-public class FolatingButtonActivity extends PopupWindow implements View.OnTouchListener {
+public class FolatingButtonView extends PopupWindow implements View.OnTouchListener {
 
     private View mContentView;
     private Activity mActivity;
@@ -25,7 +25,7 @@ public class FolatingButtonActivity extends PopupWindow implements View.OnTouchL
     LoginTypeListener listener;
 
 
-    public FolatingButtonActivity(Activity activity) {
+    public FolatingButtonView(Activity activity) {
         mActivity = activity;
         setWidth(ViewGroup.LayoutParams.MATCH_PARENT);
         setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
