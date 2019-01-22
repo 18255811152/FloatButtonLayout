@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.qwert.base.BaseActivity;
-import com.example.qwert.floatingbutton.FolatingButtonView;
+import com.example.qwert.weight.FolatingButtonView;
 import com.example.qwert.floatingbutton.R;
 
 import java.util.ArrayList;
@@ -106,6 +106,5 @@ public class MainActivity extends BaseActivity implements FolatingButtonView.Log
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         // TODO Auto-generated method stub
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-
     }
 }

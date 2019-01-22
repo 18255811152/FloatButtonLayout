@@ -1,4 +1,4 @@
-package com.example.qwert.floatingbutton;
+package com.example.qwert;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import com.blankj.utilcode.util.SPUtils;
-import com.blankj.utilcode.util.ToastUtils;
-import com.example.qwert.MainActivity;
+import com.example.qwert.floatingbutton.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -39,11 +38,9 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if (isFirstInto) {
-                    ToastUtils.showShort("111111111111111111111");
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));
                     finish();
                 } else {
-                    ToastUtils.showShort("2222222222222222222222");
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));
                     spUtils.put("isFirstInto", true);
                     finish();
